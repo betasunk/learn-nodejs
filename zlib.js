@@ -7,6 +7,8 @@ const source = createReadStream('input.txt');
 
 const target = createWriteStream('input.txt.gz');
 
-
+pipeline(source,gzip,target,cb=>{
+  console.log('cb>>>>>',cb);
+})
 
 
