@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/betasunk/learn-nodejs/issues"
   },
-  "homepage": "https://github.com/betasunk/learn-nodejs#readme"
+  "homepage": "https://github.com/betasunk/learn-nodejs#readme",
+  "devDependencies": {
+    "chalk": "^5.3.0"
+  }
 }
